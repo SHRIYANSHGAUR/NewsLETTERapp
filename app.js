@@ -47,12 +47,12 @@ const l = req.body.lname;
 
   ///     https.request(url,options, function(response){});
 
-const u= "https://us5.api.mailchimp.com/3.0/lists/354b12e3e3";
+const u= "apikeys(saved locally)";
 
  const option={
 
      method: "POST",
-     auth:"Shriyansh123:7841964fd8629ec3a18b7116335e1808-us5"
+     auth:""
 
  }// auth : "string: apikey"
 ////     the below code is standard for posting on  any external site
@@ -98,11 +98,7 @@ app.post("/failure", function(req,res){
 //  us5 == <dc>
 
 
-///api
-//  7841964fd8629ec3a18b7116335e1808-us5
-
-///list id   354b12e3e3
-
+//
 // heroku needs a Procfile  >>>>follow   name  strictly with no extentions
 ///   to change or update soething in real server
 //  make some chnage here and write   this in hyper terminal
